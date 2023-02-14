@@ -1,0 +1,80 @@
+:root {
+    --icon-green: #075E54;
+    --white: #ffffff;
+    --black: #121312;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #e2dddd;
+    color: var(--white);
+    margin: 0;
+}
+
+#author{
+    color: var(--white);
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    color: inherit;
+}
+
+.container{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--black);
+    padding: 10px;
+    background-color: var(--icon-green);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+textarea{
+    height: 170px;
+    padding: 10px;
+    width: 250px;
+    font-size: 14px;
+    background-color: var(--black);
+    outline: none;
+}
+
+input{
+    background-color: var(--white);
+    color: var(--black);
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    margin: 10px 0;
+    width: 250px;
+}
+
+table, th,td{
+    border-spacing: 0;
+    text-indent: initial;
+    border-color: grey;
+    border: 1px solid;
+    color: var(--black);
+}
+
+.cancel{
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
